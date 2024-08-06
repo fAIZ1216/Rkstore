@@ -1,0 +1,363 @@
+* {margin: 0;
+
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #ffff;
+    overflow-x: hidden;
+    
+}
+.about-section{
+    width: 100%;
+    height: 100%;
+
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #F8F8F8; */
+  border-radius: 30px;
+  width: 100%;
+  height: 10vh;
+  margin-top: 2vw;
+  padding: 0vw 3vw;
+}
+.nav-logo {
+  font-size: 1.7vw;
+
+}
+nav a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.4vw;
+  color: black;
+  padding: 1vw 1.5vw;
+  border-radius: 100px;
+}
+.singup {
+  border: none;
+  color: black;
+  padding: 1vw 1.7vw;
+  border-radius: 100px;
+  font-size: 1.3vw;
+  margin-left: 1rem;
+}
+.icons i {
+  padding: 0vw 1vw;
+  cursor: pointer;
+}
+.singup:hover {
+  background-color: rgba(0, 0, 255, 0.534);
+  color: white;
+  transition: ease-in-out 0.3s;
+}
+nav a:hover {
+  background-color: rgba(0, 0, 255, 0.534);
+  color: white;
+  transition: ease-in-out 0.3s;
+}
+.about-para{
+    width: 40%;
+    height: 40vh;
+    /* background-color: red; */
+    text-align: center;
+    margin: 2vw auto;
+    margin-top: 5vw;
+}
+.about-para h1{
+    font-size: 4vw;
+    font-weight: 400;
+}
+.about-para p{
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    font-weight: 400;
+}
+.hero-img{
+    width: 93%;
+    height: 60vh;
+   
+    margin-left: 5vw;
+   
+   
+}
+.hero-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    
+}
+/* experirnce start */
+.experience{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ex-contant{
+    width: 40%;
+    height: 70vh;
+    /* background-color: aqua; */
+    padding: 4vw 3vw;
+    
+}
+.ex-contant h1{
+    font-size: 3.5vw;
+}
+.ex-contant h1 span{
+    color: rgba(2, 31, 31, 0.452);
+}
+.ex-contant p{
+    font-size: 1vw;
+    line-height: 1.4;
+    margin-top: 2VW;
+}
+.ex-logo{
+    width: 50%;
+    height: 30%;
+   
+     
+}
+.logo-img img{
+    width: 25%;
+    height: 25%;
+    margin: auto 1vw;
+
+}
+/* experience end */
+
+
+/* about store */
+.about-store{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+}
+.about-store .about-img{
+    width: 34vw;
+    height: 45vw;
+   
+    margin-left: 2vw;
+    
+   
+   
+}
+.about-store .about-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.store-contant{
+    width: 50vw;
+    height: 30vw;
+    /* background-color: aqua; */
+    margin-left: 7vw;
+    padding: 3vw 4vw;
+    display: flex;
+    flex-direction: column;
+}
+.store-contant h4{
+    font-size:  0.9vw;
+    margin-bottom: 2vw;
+}
+.store-contant h2{
+    font-size: 3vw;
+    font-weight: 400;
+    margin-bottom: 2vw;
+}
+.store-contant span{
+    color: aqua;
+}
+.store-contant p{
+    font-size: 1.3vw;
+    line-height: 1.4;
+}
+.main-vission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.visiion{
+    width: 20vw;
+    height: 20vw;
+    /* background-color: red; */
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: column;
+}
+.visiion p{
+    font-size: 1.3vw;
+    margin-top: 1vw;
+}
+
+/* store end */
+.more-deatils{
+  width: 100%;
+  height: 60vh;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.deatils-img{
+    width: 30vw;
+    height: 20vw;
+    
+    background-color: #FFFFFF;
+    border: 2px solid rgba(15, 13, 13, 0.048);
+    border-radius: 30px;
+    margin-top: 7vw;
+    margin-left: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.deatils-img i{
+    font-size: 6vw;
+    color: rgba(0, 0, 255, 0.507);
+}
+.deatils-img p{
+    width: 70%;
+    font-size: 1.5vw;
+    margin-top: 2.4vw;
+}
+.deatils-img a{
+    text-decoration: none;
+    font-size: 1.5vw;
+    margin-right: 3vw;
+    margin-top: 1.4vw;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.671); */
+    color: black;
+    padding: 4vw 3vw;
+    box-shadow: inset;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.05),
+    25px 35px 30px rgba(0, 0, 0, 0.05),
+    25px 30px 30px rgba(0, 0, 0, 0.05),
+    inset -20px -20px 25px rgba(255, 255, 255, 1);
+    margin-top: 5vw;
+    
+  }
+  .footer-contant{
+    display: flex;
+   justify-content: space-evenly;
+   
+  
+  }
+  .about-contant{
+    width: 35%;
+    height: 36vw;
+    /* background-color: red; */
+  
+  }
+  .about-contant p{
+    font-size: 1.8vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  .about-contant a{
+    text-decoration: none;
+    color: black;
+    line-height: 3;
+    font-size: 1.3vw;
+    margin-left: 2vw;
+    
+  }
+  .about-contant i{
+    font-size: 1.6vw;
+  }
+  .services{
+    display: flex;
+    
+    flex-direction: column;
+  }
+  .services a{
+    text-decoration: none;
+    color: black;
+    line-height: 1.9;
+    margin-top: 1.8vw;
+  }
+  .links{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .links a{
+    text-decoration: none;
+    color: black;
+    line-height: 1.8;
+    margin-top: 1.8vw;
+  }
+  
+  .pay-img {
+   width: 3vw;
+   height: 3vw;
+   background-color: red;
+   display: flex;
+  gap: 1vw;
+  margin-top: 3vw;
+  
+  
+  
+   
+  }
+  .pay-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    
+  
+  }
+  .picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+   
+    
+  }
+  .picture i{
+    width: 3vw ;
+    height:3vw;
+    background-color: black;
+    margin-left: 4vw;
+    color: white;
+    font-size: 2.2vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vw 1vw;
+  
+  }
+  .copywrite-msg{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+
+
+
